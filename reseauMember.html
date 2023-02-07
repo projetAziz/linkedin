@@ -1,0 +1,301 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="shortcut icon" href="./images/linkedin.ico">
+
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+    integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+
+  <title>Membres réseau</title>
+</head>
+<style>
+  body {
+    background-color: #eee;
+  }
+
+  .profile-page .profile-header .profile-image img {
+    border-radius: 50%;
+    width: 100px;
+    border: 3px solid #fff;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23)
+  }
+
+  .bgblue {
+    background: #e6f6ff;
+  }
+
+  /*Profile Card 3*/
+  .profile-card-3 {
+    font-family: 'Open Sans', Arial, sans-serif;
+    position: relative;
+    float: left;
+    overflow: hidden;
+    width: 100%;
+    text-align: center;
+    height: 368px;
+    border: none;
+  }
+
+  .profile-card-3 .background-block {
+    float: left;
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+  }
+
+  .profile-card-3 .background-block .background {
+    width: 100%;
+    height: 35%;
+    vertical-align: top;
+    opacity: 0.9;
+    -webkit-filter: blur(0.5px);
+    filter: blur(0.5px);
+    -webkit-transform: scale(1.8);
+    transform: scale(2.8);
+  }
+
+  .profile-card-3 .card-content {
+    width: 100%;
+    padding: 10px 10px;
+    color: #232323;
+    float: left;
+    border-radius: 0 0 5px 5px;
+    position: relative;
+    z-index: 9999;
+  }
+
+  .profile-card-3 .card-content::before {
+    content: '';
+    background: #efefef;
+    width: 120%;
+    left: 11px;
+    bottom: 51px;
+    position: absolute;
+    z-index: -1;
+    transform: rotate(-13deg);
+  }
+
+  .profile-card-3 .profile {
+    border-radius: 50%;
+    position: absolute;
+    bottom: 65%;
+    left: 50%;
+    max-width: 100px;
+    opacity: 1;
+    box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.5);
+    border: 2px solid rgba(255, 255, 255, 1);
+    -webkit-transform: translate(-50%, 0%);
+    transform: translate(-50%, 0%);
+    z-index: 99999;
+  }
+
+  .profile-card-3 h2 {
+    font-weight: 600;
+    font-size: 25px;
+  }
+
+  .profile-card-3 h2 small {
+    display: block;
+    font-size: 15px;
+    margin-top: 10px;
+  }
+
+  .nav {
+    background-color: #0077B5;
+  }
+
+  .nav-link {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+  }
+</style>
+
+<body>
+
+  <div class="container">
+    <div class="row bg-white pt-3 pr-3">
+      <!--Profile Card -->
+
+      <div class="bg-white mt-2 p-2">
+        Presonnes avec des roles similaires que Vous pourriez connaitre
+        <span class="float-right text-muted">Tous les voir</span>
+        <div class="row  pt-3 mx-0 mt-2">
+          <!--Profile Card -->
+          <div class="col-md-6 col-lg-3 mb-3 px-1 ">
+            <div class="card profile-card-3 border border-muted">
+              <div class="background-block">
+                <img src="./images/bg-samy-zarour.png" alt="profile-sample1" class="background" />
+              </div>
+              <div class="profile-thumb-block">
+                <img src="./images/samy-zarour.jpeg" alt="profile-image" class="profile" />
+              </div>
+              <div class="card-content">
+                <strong>Samy Zarour</strong>
+                <div class="text-muted">
+                  <small>CTO & Co-founder at <br>HookMotion</small> <br><br><br>
+                  <i class="bi bi-union mr-2"></i>3 relations en commun
+                </div>
+                <button class="btn btn-light btn-round border border-primary text-primary mt-2">se connecter</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3 mb-3 px-1 ">
+            <div class="card profile-card-3 border border-muted">
+              <div class="background-block">
+                <img src="./images/Francis-Couture-bg.png" alt="profile-sample1" class="background" />
+              </div>
+              <div class="profile-thumb-block">
+                <img src="./images/Francis-Couture.jpeg" alt="profile-image" class="profile" />
+              </div>
+              <div class="card-content">
+                <strong>Francis Couture</strong>
+                <div class="text-muted">
+                  <small>Fondateur @Artifici,</small> <br>
+                  passionné de Lean...
+                  <br><br><br>
+                  <i class="bi bi-union mr-2"></i>3 relations en commun
+                </div>
+                <button class="btn btn-light btn-round border border-primary text-primary mt-2">se connecter</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3 mb-3 px-1 ">
+            <div class="card profile-card-3 border border-muted">
+              <div class="background-block">
+                <img src="./images/Alexi-Roy-bg.jpeg" alt="profile-sample1" class="background" />
+              </div>
+              <div class="profile-thumb-block">
+                <img src="./images/Alexi-Roy.jpeg" alt="profile-image" class="profile" />
+              </div>
+              <div class="card-content">
+                <strong>Alexi Roy</strong>
+                <div class="text-muted">
+                  <small>Les Vols d'Alexi</small> <br>
+                  <br><br><br>
+                  <i class="bi bi-union mr-2"></i>33 relations en commun
+                </div>
+                <button class="btn btn-light btn-round border border-primary text-primary mt-2">se connecter</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3 mb-3 px-1">
+            <div class="card profile-card-3 border border-muted">
+              <div class="background-block">
+                <img src="./images/Axel-Crevaux-bg.jpeg" alt="profile-sample1" class="background" />
+              </div>
+              <div class="profile-thumb-block">
+                <img src="./images/Axel-Crevaux.jpeg" alt="profile-image" class="profile" />
+              </div>
+              <div class="card-content">
+                <strong>Axel Crevaux</strong>
+                <div class="text-muted">
+                  <small>Entrepreneur nomade</small> <br>
+                  <br><br><br>
+                  <i class="bi bi-union mr-2"></i>30 relations en commun
+                </div>
+                <button class="btn btn-light btn-round border border-primary text-primary mt-2">se connecter</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3 mb-3 px-1">
+            <div class="card profile-card-3 border border-muted">
+              <div class="background-block">
+                <img src="./images/Denis-Korak-bg.jpeg" alt="profile-sample1" class="background" />
+              </div>
+              <div class="profile-thumb-block">
+                <img src="./images/Denis-Korak.jpeg" alt="profile-image" class="profile" />
+              </div>
+              <div class="card-content">
+                <strong>Denis Korak</strong>
+                <div class="text-muted">
+                  <small>Conseiller en</small> <br>
+                  Identification et...
+                  <br><br><br>
+                  <i class="bi bi-union mr-2"></i>6 relations en commun
+                </div>
+                <button class="btn btn-light btn-round border border-primary text-primary mt-2">se connecter</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3 mb-3 px-1">
+            <div class="card profile-card-3 border border-muted">
+              <div class="background-block">
+                <img src="./images/Thérèse-Dalpé-bg.jpeg" alt="profile-sample1" class="background" />
+              </div>
+              <div class="profile-thumb-block">
+                <img src="./images/Thérèse-Dalpé.jpeg" alt="profile-image" class="profile" />
+              </div>
+              <div class="card-content">
+                <strong>Thérèse Dalpé</strong>
+                <div class="text-muted">
+                  <small>Représentante et service</small> <br>
+                  à la clientèle
+                  <br><br><br>
+                  <i class="bi bi-union mr-2"></i>3 relations en commun
+                </div>
+                <button class="btn btn-light btn-round border border-primary text-primary mt-2">se connecter</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3 mb-3 px-1">
+            <div class="card profile-card-3 border border-muted">
+              <div class="background-block">
+                <img src="./images/Karine-Trudel-bg.jpeg" alt="profile-sample1" class="background" />
+              </div>
+              <div class="profile-thumb-block">
+                <img src="./images/Karine-Trudel.jpeg" alt="profile-image" class="profile" />
+              </div>
+              <div class="card-content">
+                <strong>Karine Trudel</strong>
+                <div class="text-muted">
+                  <small>Fondateur @Artifici,</small> <br>
+                  --
+                  <br><br><br>
+                  <i class="bi bi-union mr-2"></i>6 relations en commun
+                </div>
+                <button class="btn btn-light btn-round border border-primary text-primary mt-2">se connecter</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3 mb-3 px-1">
+            <div class="card profile-card-3 border border-muted">
+              <div class="background-block">
+                <img src="./images/Manon-Paquette-bg.jpeg" alt="profile-sample1" class="background" />
+              </div>
+              <div class="profile-thumb-block">
+                <img src="./images/Manon-Paquette.jpeg" alt="profile-image" class="profile" />
+              </div>
+              <div class="card-content">
+                <strong>Manon Paquette</strong>
+                <div class="text-muted">
+                  <small>Experte en prestance</small> <br>
+                  pour entrepreneurs
+                  <br><br><br>
+                  <i class="bi bi-union mr-2"></i>25 relations en commun
+                </div>
+                <button class="btn btn-light btn-round border border-primary text-primary mt-2">se connecter</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- jQuery and Bootstrap Bundle (includes Popper) -->
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>
